@@ -1,0 +1,126 @@
+*
+{ 
+	box-sizing: border-box;
+}
+body
+{ 
+   font-family: 'Karla',sans-serif;
+    margin: 0;
+   background-color: hsl(204, 43%, 93%);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+main
+{ 
+   background-color: #fff;
+   max-width: 700px;
+   width: 700px;
+   margin: auto;
+   border-radius:10px;
+   box-shadow:  0 5px 10px rgba(0,0,0,0.05);
+   overflow: hidden;
+
+
+}
+
+section
+{
+	padding: 35px;
+
+}
+
+section.box1
+{
+  background-color: hsl(179,62%,43%);
+  color: #fff;
+}
+
+section.box2
+{
+  background-color: hsl(179,47%,52%);
+  color: #fff;
+
+}
+.boxes
+{
+	display: flex;
+
+}
+.boxes > section
+{
+	flex: 1;
+}
+
+h1
+{
+color: hsl(179,62%,43%);
+ font-size: 34px;
+
+}
+
+.yellowtext
+{
+	color: hsl(71,73%,54%);
+}
+
+p
+{
+	font-size: 18px;
+}
+p.text
+{
+	color: #999;
+	margin: 7px;
+}
+
+p.dollar
+{
+color: hsl(179,43%,75%);
+display: flex;
+align-items: center;
+}
+
+p.dollar span
+{ 
+	font-size: 50px;
+	color: #fff;
+	margin-right: 10px;
+}
+
+button
+{
+background-color:hsl(71,73%,54%);
+width: 100%;
+padding: 20px 0;
+font-size: 16px;
+color: #fff;
+border-radius: 5px;
+border: none;
+box-shadow:  0 5px 10px rgba(0,0,0,0.05);
+margin-top: 15px;
+font-family: 'Karla',sans-serif;
+font-weight: 700;
+}
+
+ul
+{
+	list-style-type: none;
+	padding: 0;
+	opacity: 0.7;	
+}
+ul li
+{ 
+line-height: 28px;
+
+}
+@media screen and (max-width: 600px)
+{
+	.boxes
+	{
+		flex-direction:row ;
+	}
+}
